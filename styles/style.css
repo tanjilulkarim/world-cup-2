@@ -1,3 +1,112 @@
-h1 {
-    color: red;
+/* common style */
+body {
+    background-color: #d0caeec5;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* common */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* top banner section */
+.top-banner {
+    display: flex;
+    height: 575px;
+    margin-top: 50px;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.half-width img {
+    width: 95%;
+    margin-top: 74px;
+
+}
+
+.section-title {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 70px;
+    margin-top: 111px;
+}
+
+.description-text {
+    color: white;
+    margin-left: 70px;
+    padding-right: 30px;
+}
+
+.wath-button {
+    background: #DD0000;
+    color: white;
+
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    padding: 16px 25px;
+    margin-left: 70px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+/* card and menu */
+.cards-blogs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+
+.btn-group {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+/* blogs item  */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.blog {
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.blog img {
+    width: 100%;
 }
