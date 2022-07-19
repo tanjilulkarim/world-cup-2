@@ -1,6 +1,8 @@
 /* common style */
 body {
-    background-color: #d0caeec5;
+    margin: 0;
+    padding: 0;
+    background-color: #c5c4cdc5;
     font-family: 'Encode Sans Expanded', sans-serif;
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -51,16 +53,14 @@ body {
     padding-right: 30px;
 }
 
-.wath-button {
+.watch-button {
     background: #DD0000;
     color: white;
-
-    width: 187px;
-    height: 56px;
+    /* width: 190px; */
+    /* height: 56px; */
     border-radius: 5px;
-    padding: 16px 25px;
+    padding: 16px 30px;
     margin-left: 70px;
-
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -78,18 +78,36 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #161616;
-    width: 312px;
-    height: 312px;
+    width: 300px;
+    height: 310px;
     border-radius: 5px;
     margin-right: 24px;
 }
 
-.btn-group {
+/* .btn-group {
     margin-top: 30px;
     margin-bottom: 20px;
+} */
+
+.card-button {
+    width: 230px;
+    height: 64px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 8px;
+
 }
 
-
+#blog-btn {
+    background-color: #DD0000;
+    margin-bottom: 15px;
+}
 
 /* blogs item  */
 .blogs {
@@ -104,9 +122,88 @@ body {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     background-color: white;
+    width: 220px;
+    height: auto;
+
 }
 
 
 .blog img {
     width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.blog-description {
+    margin-left: 20px;
+}
+
+.blog-description span {
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+
+}
+
+.blog-description h6 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.blog-info {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.blog-duration {
+    margin-right: 25px;
+}
+
+
+
+/* #footer  */
+
+
+footer {
+    background-color: #161616;
+    height: 250px;
+    padding-top: 100px;
+    margin-top: 100px;
+
+
+}
+
+.footer-title {
+    margin: 0 auto;
+    width: 95px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+
+hr {
+    margin-top: 25px;
+    margin-right: 150px;
+    margin-left: 200px;
+
+}
+
+.links {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.link {
+    margin-left: 50px;
 }
