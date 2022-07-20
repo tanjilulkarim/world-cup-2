@@ -257,6 +257,7 @@ body {
 
 footer {
     background-color: #161616;
+    width: 100%;
     padding-top: 100px;
     margin-top: 100px;
 
@@ -317,11 +318,14 @@ footer {
 
 /* footer end */
 
-
+#test {
+    display: none;
+}
 
 /* responsive */
 /* mobile device */
 @media screen and (max-width: 576px) {
+
 
     .container {
         width: 100%;
@@ -356,6 +360,10 @@ footer {
         margin-left: 15px;
 
 
+    }
+
+    #test {
+        display: block;
     }
 
     /* 2nd part */
@@ -395,6 +403,10 @@ footer {
     /*------------------------------ 
                   footer 
     -------------------------------*/
+    .footer {
+        width: 100%;
+    }
+
     .footer-section {
 
         width: 100%;
