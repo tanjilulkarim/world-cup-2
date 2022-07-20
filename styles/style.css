@@ -16,6 +16,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 /* top banner section */
 .top-banner {
     display: flex;
@@ -251,14 +253,6 @@ body {
     margin-left: 20px;
 }
 
-
-/* ---------------#footer ----------------------  */
-/* footer {
-    background-color: #161616;
-    width: 100%;
-    padding-top: 100px;
-    margin-top: 100px;
-} */
 /* footer 2 */
 .footer {
     background-color: #24262b;
@@ -357,7 +351,6 @@ body {
 
     }
 
-
     .top-banner {
         flex-direction: column;
         width: 334px;
@@ -387,11 +380,6 @@ body {
 
 
     }
-
-    #test {
-        display: block;
-    }
-
 
     /* 2nd part */
     .cards-blogs {
@@ -431,7 +419,6 @@ body {
                   footer 
     -------------------------------*/
     .footer {
-
         margin: 0;
 
     }
@@ -452,7 +439,6 @@ body {
         /* text-align: center; */
         align-items: center;
 
-
     }
 
     .footer-col {
@@ -460,8 +446,6 @@ body {
         margin-bottom: 30px;
         text-align: center;
         padding: 0;
-
-
 
     }
 
@@ -476,6 +460,8 @@ body {
 
 /* medium devices or tab */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+
+
     .top-banner {
         width: 100%;
         padding: 0;
@@ -485,6 +471,7 @@ body {
     .cards-blogs {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .cards {
@@ -493,6 +480,7 @@ body {
         padding: 80px;
         margin: 0 auto;
         margin-bottom: 50px;
+        align-items: center;
         /* margin-left: 200px;
         margin-bottom: 40px; */
     }
@@ -501,6 +489,7 @@ body {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px 20px;
         margin: 0 auto;
 
     }
@@ -508,6 +497,37 @@ body {
     .blog {
         width: 100%;
         margin-right: 30px;
-        padding: 20px;
+        gap: 10px 100px;
+        margin-right: 50px;
+        /* padding: 20px; */
     }
+
+    .matchs {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 80px;
+        margin: 0 auto;
+
+    }
+
+    .match {
+        width: 100%;
+        margin-right: 30px;
+        /* padding: 20px; */
+    }
+
+
+    #test {
+        display: block;
+        margin-left: 350px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+
+
 }
